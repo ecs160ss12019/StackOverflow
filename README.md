@@ -1,8 +1,8 @@
 # StackOverflow
-We plan to recreate the classic Atari 2600 game 'Space Invaders'.
+We plan to create the game 'Malware Invaders'.
 
 ## Game Objective
-You are the best fighter pilot on Earth and you’ve been asked to go on a mission to protect Earth from Massive Unidentified Terrestrial Organisms (MUTO) sent by Dr. Posnett using weapons on your Falcon 3000.
+You are the antivirus program and you've been asked to protect the system from malware applications designed by Dr.Y and use physical signal to terminate those applications. 
 
 ## The Team
 - Karan Gupta: Cognitive Science with Computational Development, Junior.
