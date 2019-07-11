@@ -14,14 +14,12 @@ Scores</td></tr></table>
 <em>Know the entitie's health </em>
 
 <em>Know the entitie's positions </em></td>
-<td><em>Phoneix 3000</em>
-
-<em>Malware application</em>
-
-<em>Firewall</em></td></tr></table>
+<td></td></tr></table>
 
 
-<table><tr align = 'center'><td colspan = '2'>Phoneix 3000</td></tr><tr><td>move horizontally
+
+<table><tr align = 'center'><td colspan = '2'>Phoneix 3000</td></tr>
+<tr><td>move horizontally
 fire signals</td><td>signal</td></tr></table>
 
 
