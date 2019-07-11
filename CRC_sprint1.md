@@ -61,6 +61,10 @@ Store and update all the current block locations within the wall, sent it to Mal
 List of blocks
 </td></tr></table>>
 
+<table><tr align = 'center'><td colspan = '2'>Block</td></tr><tr><td>
+Store four-corner coordinates
+</td><td></td></tr></table>>
+
 <table><tr align = 'center'><td colspan = '2'>GUI of main game</td></tr><tr><td>set up the initial leth
 left, right and fire button
 </td><td></td></tr></table>>
