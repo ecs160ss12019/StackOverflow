@@ -71,10 +71,10 @@ Stores and updates left, right and shoot variables based on user inputs
 
 <table><tr align = 'center'><td colspan = '2'>GUI of main game</td></tr><tr><td>
 Initialize the beginning page with options: "New Game", "Leaderboard" and "Sound On" <br> 
-With userInput "New Game" true, sent signal to MalwareInvader to set up the game page
-With userInput "Leaderboard" true, draw the Leaderboard page, which contains a "back" button
-With userInput "Sound On" true, sound on
-On Leaderboard page, when "back" true, jumps to "New Game"  page
-On NewGame page, When receives gameover signal from MalwareInvader, jumps to "Leaderboard" page
+With userInput "New Game" true, sent signal to MalwareInvader to set up the game page <br>
+With userInput "Leaderboard" true, draw the Leaderboard page, which contains a "back" button <br>
+With userInput "Sound On" true, sound on <br>
+On Leaderboard page, when "back" true, jumps to "New Game"  page <br>
+On NewGame page, When receives gameover signal from MalwareInvader, jumps to "Leaderboard" page <br>
 </td><td>MalwareInvader</td></tr></table>>
 
