@@ -59,17 +59,17 @@ Show MalwareExplosion effect
 Stores and updates all the current block locations within the wall, sent it to MalwareInvader
 </td><td>
 List of blocks
-</td></tr></table>>
+</td></tr></table>
 
 <table><tr align = 'center'><td colspan = '2'>Block</td></tr><tr><td>
 Stores four-corner coordinates
-</td><td></td></tr></table>>
+</td><td></td></tr></table>
 
 <table><tr align = 'center'><td colspan = '2'>Keystroke</td></tr><tr><td>
 Stores and updates left, right and shoot variables based on user inputs
-</td><td></td></tr></table>>
+</td><td></td></tr></table>
 
 <table><tr align = 'center'><td colspan = '2'>GUI of main game</td></tr><tr><td>set up the initial leth
 left, right and fire button
-</td><td></td></tr></table>>
+</td><td></td></tr></table>
 
