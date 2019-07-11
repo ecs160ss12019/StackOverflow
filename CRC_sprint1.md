@@ -1,8 +1,13 @@
-<table><tr align = 'center'><td colspan = '2'>Malware Invader</td></tr><tr><td>Presents the main menu when player load into the game<br>When a new game is selected, create the basic structure of the main game including all entities ,scores,GUI <br>
+<table><tr align = 'center'><td colspan = '2'>MalwareInvader</td></tr><tr><td>Presents the main menu when player load into the game<br>When 'new game' in menu is selected, start a new game and create the basic structure of the main game including all entities ,scores,GUI <br>
+Control the malware applications to fire signal randomly<br>
+Draws the game interface whenver states are updated <br>
+Increment the score when player shot the malware application 
 </td>
-<td>Entities<br>
+<td>Phoneix3000<br>
+MalwareApp<br>
 GUI<br>
-Scores<br></td>
+Scores<br>
+</td>
 </tr>
 </table>
 
@@ -13,10 +18,10 @@ Know the entitie's positions
 </td>
 <td></td></tr></table>
 
-<table><tr align = 'center'><td colspan = '2'>Phoneix 3000</td></tr><tr><td>
+<table><tr align = 'center'><td colspan = '2'>Phoneix3000</td></tr><tr><td>
 Has all the states as entity<br>
-Initially has three lives and decrement one whenever I get shot<br>
-move horizontally <br>
+Initially has three lives and decrement one Whenever I get shot<br>
+Move horizontally <br>
 Use KeyStroke to update my position<br>
 Has physical signals and fire signals
 </td><td>
