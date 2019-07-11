@@ -48,9 +48,11 @@ Based on system controlled horizontal movements, update its postions in entities
 Show explosion effect when I get shot<br>
 </td><td>Entities<br> MalwareInvader</td></tr></table>
 
-<table><tr align = 'center'><td colspan = '2'>MalwareApp</td></tr><tr><td>shoot virus, move side by side
-when reach horizontal edge go down
-</td><td>virus
+<table><tr align = 'center'><td colspan = '2'>MalwareApp</td></tr><tr><td>
+Based on system controlled horizontal or vertical movements, update its postions in entities <br>
+Based on fire signal sent by MalwareInvader, fire the signal <br>
+Show MalwareExplosion effect 
+</td><td>Signal <br> Entities<br>MalwareInvader
 </td></tr></table>
 
 <table><tr align = 'center'><td colspan = '2'>Wall</td></tr><tr><td>place three walls
