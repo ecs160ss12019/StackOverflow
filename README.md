@@ -10,8 +10,9 @@ You are the antivirus program and you've been asked to protect the system from m
 - WaiYu Lam: Computer Science, Junior.
 - Wenda Xu: Computer Science and Engineering, Junior.
 
-## Project Repository
+## Link to Project Repository
 https://github.com/ecs160ss12019/StackOverflow
 
-## CRC for week1
+## Link to CRC for week1
 https://github.com/ecs160ss12019/StackOverflow/blob/master/CRC_sprint1.md
+

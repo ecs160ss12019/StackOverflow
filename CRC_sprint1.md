@@ -22,7 +22,7 @@ Know the entitie's positions
 
 <table><tr align = 'center'><td colspan = '2'>Phoneix3000</td></tr><tr><td>
 Has all the states as entity<br>
-Initially has three lives and decrement one Whenever I get shot<br>
+Initially has three lives and decrement one whenever I get shot<br>
 Move horizontally <br>
 Use KeyStroke to update my position<br>
 Has physical signals and fire signals<br>
