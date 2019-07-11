@@ -1,10 +1,8 @@
-<table><tr align = 'center'><td colspan = '2'>Malware Invader</td></tr><tr><td><em>Presents the main menu when player load into the game</em>
-
-<em>When a new game is selected, create the basic structure of the main game including all entities ,scores,GUI </em>
+<table><tr align = 'center'><td colspan = '2'>Malware Invader</td></tr><tr><td>Presents the main menu when player load into the game<br>When a new game is selected, create the basic structure of the main game including all entities ,scores,GUI <br>
 </td>
-<td>Entities
-GUI
-Scores</td>
+<td>Entities<br>
+GUI<br>
+Scores<br></td>
 </tr>
 </table>
 
