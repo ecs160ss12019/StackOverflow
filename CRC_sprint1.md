@@ -1,11 +1,11 @@
 <table><tr align = 'center'><td colspan = '2'>MalwareInvader</td></tr><tr><td>Presents the main menu when player load into the game<br>When 'new game' in menu is selected, start a new game and create the basic structure of the main game including all entities ,scores,GUI <br>
 Control the malware applications to fire signal randomly<br>
 Draws the game interface whenver states are updated <br>
+Detect the Collistion and call the corresponding exploision function of the exploded entity<br>
 Increment the score when player shot the malware application </td>
 <td>Phoneix3000<br>
 MalwareApp<br>
 GUI<br>
-Scores<br>
 </td>
 </tr>
 </table>
