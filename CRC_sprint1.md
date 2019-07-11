@@ -8,14 +8,21 @@ Scores<br></td>
 
 <table><tr align = 'center'><td colspan = '2'>Entities</td></tr>
 <tr><td>Know the entity's moves<br>
-Know the entitie's health<br>
 Know the entitie's positions
 </td>
 <td></td></tr></table>
 
+<table><tr align = 'center'><td colspan = '2'>Phoneix 3000</td></tr><tr><td>
+Has all the states as entity<br>
+Initially has three lives and decrement one whenever I get shot<br>
+move horizontally <br>
+Use KeyStroke to update my position<br>
+Has physical signals and fire signals
+</td><td>
+Signal<br>
+Entities<br>
 
-<table><tr align = 'center'><td colspan = '2'>Phoneix 3000</td></tr><tr><td>move horizontally
-fire signals</td><td>signal</td></tr></table>
+</td></tr></table>
 
 
 <table><tr align = 'center'><td colspan = '2'>signal</td></tr><tr><td>move vertically from
