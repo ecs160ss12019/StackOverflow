@@ -18,8 +18,10 @@ Know the entitie's positions
 fire signals</td><td>signal</td></tr></table>
 
 
-<table><tr align = 'center'><td colspan = '2'>signal</td></tr><tr><td>move vertically from
-Phoneix 3000 to top
+<table><tr align = 'center'><td colspan = '2'>signal</td></tr><tr><td>
+Move in direction that is specified <br>
+Disappear when touches with block <br>
+Show specifid explosition effect when touches specifed object
 </td><td>Phoneix 3000
 </td></tr></table>
 
