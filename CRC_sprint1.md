@@ -25,13 +25,18 @@ Entities<br>
 </td></tr></table>
 
 
-<table><tr align = 'center'><td colspan = '2'>signal</td></tr><tr><td>move vertically from
-Phoneix 3000 to top
-</td><td>Phoneix 3000
+<table><tr align = 'center'><td colspan = '2'>signal</td></tr><tr><td>
+Move in direction that is specified <br>
+Disappear when touches with block <br>
+Show specifid explosition effect when touches specifed object
+</td><td>
+Phoneix3000 <br>
+MalwareApp <br>
+SuperMalware
 </td></tr></table>
 
 
-<table><tr align = 'center'><td colspan = '2'>malware application</td></tr><tr><td>shoot virus, move side by side
+<table><tr align = 'center'><td colspan = '2'>malware app</td></tr><tr><td>shoot virus, move side by side
 when reach horizontal edge go down
 </td><td>virus
 </td></tr></table>>
