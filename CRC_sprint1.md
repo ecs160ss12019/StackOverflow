@@ -8,6 +8,7 @@ Scores<br></td>
 
 <table><tr align = 'center'><td colspan = '2'>Entities</td></tr>
 <tr><td>Know the entity's moves<br>
+Know if the entity is destroyed<br>
 Know the entitie's positions
 </td>
 <td></td></tr></table>
@@ -21,11 +22,11 @@ Has physical signals and fire signals
 </td><td>
 Signal<br>
 Entities<br>
-
+KeyStroke<br>
 </td></tr></table>
 
 
-<table><tr align = 'center'><td colspan = '2'>signal</td></tr><tr><td>
+<table><tr align = 'center'><td colspan = '2'>Signal</td></tr><tr><td>
 Move in direction that is specified <br>
 Disappear when touches with block <br>
 Show specifid explosition effect when touches specifed object
