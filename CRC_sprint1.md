@@ -2,7 +2,8 @@
 Control the malware applications to fire signal randomly<br>
 Draws the game interface whenver states are updated <br>
 Detect the collistion and call the corresponding exploision function of the exploded entity<br>
-Increment the score when player shot the malware application </td>
+Increment the score when player shot the malware application <br>
+Game is over when malware application reach the bottom of the screen or Phnoeix3000 run out of its lives</td>
 <td>Phoneix3000<br>
 MalwareApp<br>
 FireWall<br>
