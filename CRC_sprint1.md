@@ -42,14 +42,15 @@ Block
 </td></tr></table>
 
 <table><tr align = 'center'><td colspan = '2'>SuperMalware</td></tr><tr><td>
-Based on system controlled horizontal movements, update its postions in entities
-Based on fire signal sent by MalwareInvader, fire the signal
-Show SuperMalwareExplosion effect
-</td><td>signal, entities, SuperMalwareExplosion</td></tr></table>
+Based on system controlled horizontal movements, update its postions in entities <br>
+Show SuperMalwareExplosion effect 
+</td><td>signal <br> entities </td></tr></table>
 
-<table><tr align = 'center'><td colspan = '2'>MalwareApp</td></tr><tr><td>shoot virus, move side by side
-when reach horizontal edge go down
-</td><td>virus
+<table><tr align = 'center'><td colspan = '2'>MalwareApp</td></tr><tr><td>
+Based on system controlled horizontal or vertical movements, update its postions in entities <br>
+Based on fire signal sent by MalwareInvader, fire the signal <br>
+Show MalwareExplosion effect 
+</td><td>signal <br> entities
 </td></tr></table>>
 
 <table><tr align = 'center'><td colspan = '2'>Wall</td></tr><tr><td>place three walls
