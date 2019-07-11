@@ -2,25 +2,26 @@
 
 <em>When a new game is selected, create the basic structure of the main game including all entities ,scores,GUI </em>
 </td>
-<td><em>Entities</em>
-
-<em>GUI</em>
-
-<em>Scores</em></td>
+<td>Entities
+GUI
+Scores</td>
 </tr>
 </table>
 
 <table><tr align = 'center'><td colspan = '2'>Entities
-<tr><td>Know the entity's moves
+<tr><td>
+Know the entity's moves
 
 Kown the entitie's health 
 
-Kown the entitie's positions </td>
-<td><em>Phoneix 3000</em>
+Kown the entitie's positions 
+</td>
+<td>
+Phoneix 3000
 
-<em>Malware application</em>
+Malware application
 
-<em>Firewall </em>
+Firewall
 </td></tr>
 </table>
 
