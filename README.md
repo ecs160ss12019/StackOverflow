@@ -12,3 +12,6 @@ You are the antivirus program and you've been asked to protect the system from m
 
 ## Project Repository
 https://github.com/ecs160ss12019/StackOverflow
+
+## CRC for week1
+https://github.com/ecs160ss12019/StackOverflow/blob/master/CRC_sprint1.md
