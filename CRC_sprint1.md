@@ -9,19 +9,16 @@ Scores</td>
 </table>
 
 <table><tr align = 'center'><td colspan = '2'>Entities
-<tr><td>
-Know the entity's moves
-Kown the entitie's health 
-Kown the entitie's positions 
-</td>
-<td>
-Phoneix 3000
+<tr><td><em>Know the entity's moves</em>
 
-Malware application
+<em>Know the entitie's health </em>
 
-Firewall
-</td></tr>
-</table>
+<em>Know the entitie's positions </em></td>
+<td><em>Phoneix 3000</em>
+
+<em>Malware application</em>
+
+<em>Firewall</em></td></tr></table>
 
 
 <table><tr align = 'center'><td colspan = '2'>Phoneix 3000</td></tr><tr><td>move horizontally
