@@ -9,11 +9,10 @@ GUI
 Scores</td></tr></table>
 
 <table><tr align = 'center'><td colspan = '2'>Entities</td></tr>
-<tr><td>Know the entity's moves
-
-Know the entitie's health
-
-Know the entitie's positions</td>
+<tr><td>Know the entity's moves<br>
+Know the entitie's health<br>
+Know the entitie's positions
+</td>
 <td></td></tr></table>
 
 
