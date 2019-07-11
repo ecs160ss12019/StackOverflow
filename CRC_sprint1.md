@@ -3,12 +3,12 @@
 <em>When a new game is selected, create the basic structure of the main game including all entities ,scores,GUI </em>
 </td>
 <td>Entities
-GUI
-Scores</td>
-</tr>
-</table>
 
-<table><tr align = 'center'><td colspan = '2'>Entities
+GUI
+
+Scores</td></tr></table>
+
+<table><tr align = 'center'><td colspan = '2'>Entities</td></tr>
 <tr><td><em>Know the entity's moves</em>
 
 <em>Know the entitie's health </em>
