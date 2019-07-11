@@ -11,9 +11,7 @@ Scores</td>
 <table><tr align = 'center'><td colspan = '2'>Entities
 <tr><td>
 Know the entity's moves
-
 Kown the entitie's health 
-
 Kown the entitie's positions 
 </td>
 <td>
