@@ -3,7 +3,9 @@
 <em>When a new game is selected, create the basic structure of the main game including all entities ,scores,GUI </em>
 </td>
 <td><em>Entities</em>
+
 <em>GUI</em>
+
 <em>Scores</em></td>
 </tr>
 </table>
@@ -19,7 +21,6 @@ Kown the entitie's positions </td>
 <em>Malware application</em>
 
 <em>Firewall </em>
-
 </td></tr>
 </table>
 
