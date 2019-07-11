@@ -33,9 +33,7 @@ Phoneix 3000 to top
 when reach horizontal edge go down
 </td><td>virus
 </td></tr></table>>
-<table><tr align = 'center'><td colspan = '2'>virus</td></tr><tr><td>move vertically from malware
-to bottom
-</td><td>malware application</td></tr></table>>
+
 <table><tr align = 'center'><td colspan = '2'>Wall</td></tr><tr><td>place three walls
 on the battlefield
 </td><td></td></tr></table>>
