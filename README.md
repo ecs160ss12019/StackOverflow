@@ -16,3 +16,5 @@ https://github.com/ecs160ss12019/StackOverflow
 ## Link to CRC for week1
 https://github.com/ecs160ss12019/StackOverflow/blob/master/CRC_sprint1.md
 
+## Link to Acceptance Criteria
+https://github.com/ecs160ss12019/StackOverflow/blob/master/AcceptanceCriteria.md
