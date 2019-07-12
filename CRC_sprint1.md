@@ -1,13 +1,14 @@
 <table><tr align = 'center'><td colspan = '2'>MalwareInvader</td></tr><tr><td>
 <!-- Presents the main menu when player load into the game<br> -->
 When 'new game' in menu is selected, start a new game and create the basic structure of the main game including all entities ,scores,GUI <br>
-Control the malware applications and supermalware to move or fire signal randomly <br>
-Draws the game interface whenver states are updated
-<!-- Detect the collistion and call the corresponding exploision function of the exploded entity<br> -->
-Detect the collistion and disappear
+Control the malware applications movement and SuperMalware movement. <br>
+Limits how many malware can fire and send the fire information to MalwareApp. <br>
+Draws the game interface whenever states are updated. <br>
+<!-- Detect the collision and call the corresponding explosion function of the exploded entity<br> -->
+Detect the collision and disappear. <br>
 <!-- Increment the score when player shot the malware application <br> -->
-<!-- Game is over when malware application reach the bottom of the screen or Phnoeix3000 run out of its lives</td> -->
-<td>Phoneix3000<br>
+<!-- Game is over when malware application reach the bottom of the screen or Phoenix 3000 run out of its lives</td> -->
+<td>Phoenix3000<br>
 MalwareApp<br>
 FireWall<br>
 SuperMalware<br>
@@ -19,11 +20,11 @@ GamePage<br>
 <table><tr align = 'center'><td colspan = '2'>Entities</td></tr>
 <tr><td>Know the entity's moves<br>
 Know if the entity is destroyed<br>
-Know the entitie's positions
+Know the entities positions
 </td>
 <td></td></tr></table>
 
-<table><tr align = 'center'><td colspan = '2'>Phoneix3000</td></tr><tr><td>
+<table><tr align = 'center'><td colspan = '2'>Phoenix3000</td></tr><tr><td>
 Has all the states as entity<br>
 Initially has three lives and decrement one Whenever get shot<br>
 Move horizontally <br>
@@ -48,14 +49,17 @@ Block
 </td></tr></table>
 
 <table><tr align = 'center'><td colspan = '2'>SuperMalware</td></tr><tr><td>
-Based on system controlled horizontal movements, update its postions in entities
+SuperMalware can decide when to appear randomly every 30 seconds. <br>
+SuperMalware tells MalwareInvader it's entity information. <br>
+Based on system controlled horizontal movements, update its positions in entities
 <!-- Show explosion effect when I get shot<br> -->
 Disappears when get shot<br>
 </td><td>Entities<br> MalwareInvader</td></tr></table>
 
 <table><tr align = 'center'><td colspan = '2'>MalwareApp</td></tr><tr><td>
-Based on system controlled horizontal or vertical movements, update its postions in entities <br>
-Based on fire signal sent by MalwareInvader, fire the signal
+Based on system controlled horizontal or vertical movements, update its positions in entities. <br>
+It can propose to MalwareInvader that it wants to fire. <br>
+Based on confirmation signal sent by MalwareInvader, it fires the signal. <br>
 <!-- Show MalwareExplosion effect -->
 Disappers when get shot<br>
 </td><td>Signal <br> Entities<br>MalwareInvader
