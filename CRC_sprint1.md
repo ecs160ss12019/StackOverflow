@@ -4,8 +4,7 @@ When 'new game' in menu is selected, start a new game and create the basic struc
 Control the malware applications and supermalware to move or fire signal randomly <br>
 Draws the game interface whenver states are updated
 <!-- Detect the collistion and call the corresponding exploision function of the exploded entity<br> -->
-Detect the collistion and disappear
-<!-- Increment the score when player shot the malware application <br> -->
+Detect the collistion and disappear<!-- Increment the score when player shot the malware application <br> -->
 <!-- Game is over when malware application reach the bottom of the screen or Phnoeix3000 run out of its lives</td> -->
 <td>Phoneix3000<br>
 MalwareApp<br>
@@ -17,9 +16,10 @@ GamePage<br>
 </table>
 
 <table><tr align = 'center'><td colspan = '2'>Entities</td></tr>
-<tr><td>Know the entity's moves<br>
+<tr><td>
+Know the entity's moves<br>
 Know if the entity is destroyed<br>
-Know the entitie's positions
+Know the entitie's positions<br>
 </td>
 <td></td></tr></table>
 
@@ -44,21 +44,24 @@ Disappear when touches with block, SuperMalware, MalwareApp, Phoneix3000<br>
 Phoneix3000 <br>
 MalwareApp <br>
 SuperMalware<br>
-Block
+Block<br>
 </td></tr></table>
 
 <table><tr align = 'center'><td colspan = '2'>SuperMalware</td></tr><tr><td>
 Based on system controlled horizontal movements, update its postions in entities
 <!-- Show explosion effect when I get shot<br> -->
 Disappears when get shot<br>
-</td><td>Entities<br> MalwareInvader</td></tr></table>
+</td><td>Entities<br>
+MalwareInvader</td></tr></table>
 
 <table><tr align = 'center'><td colspan = '2'>MalwareApp</td></tr><tr><td>
 Based on system controlled horizontal or vertical movements, update its postions in entities <br>
 Based on fire signal sent by MalwareInvader, fire the signal
 <!-- Show MalwareExplosion effect -->
 Disappers when get shot<br>
-</td><td>Signal <br> Entities<br>MalwareInvader
+</td><td>Signal<br>
+Entities<br>
+MalwareInvader
 </td></tr></table>
 
 <table><tr align = 'center'><td colspan = '2'>FireWall</td></tr><tr><td>
