@@ -29,7 +29,7 @@ Initially has three lives and decrement one Whenever I get shot<br>
 Move horizontally <br>
 Use KeyStroke to update my position<br>
 Has physical signals and fire signals<br>
-Explode when it get shot from malware app<br>
+<!-- Sprint2: Explode when it get shot from malware app<br> -->
 </td><td>
 Signal<br>
 Entities<br>
