@@ -79,7 +79,7 @@ Stores four-corner coordinates<br>
 Stores and updates left, right and shoot variables based on user inputs<br>
 </td><td></td></tr></table>
 
-<table><tr align = 'center'><td colspan = '2'>GamePage</td></tr><tr><td>
+<table><tr align = 'center'><td colspan = '2'>MainPage</td></tr><tr><td>
 Initialize the beginning page with options: "New Game", "Leaderboard" and "Sound On" <br>
 With userInput "New Game" true, sent signal to MalwareInvader to set up the game page<br>
 On NewGame page, When receives gameover signal from MalwareInvader, jumps to "Leaderboard" page<!-- With userInput "Leaderboard" true, draw the Leaderboard page, which contains a "back" button <br> --><!-- With userInput "Sound On" true, sound on <br> -->
