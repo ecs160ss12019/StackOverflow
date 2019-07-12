@@ -3,10 +3,15 @@
 ## GUI
 
 1. The GUI should include:
+
     a. Left button, to move the Phoenix 3000 left.
+
     b. Right button, to move the Phoenix 3000 right.
+
     c. Shoot button, to shoot physical signals from the Phoenix 3000.
+
     d. Score counter on the top, to display player’s score.
+
     e. Lives counter on the top right, to display the number of lives left for Phoenix 3000.
 
 2. Given the player shoots, if a Malware is hit, then score should be updated on top of the screen.
