@@ -1,9 +1,12 @@
-<table><tr align = 'center'><td colspan = '2'>MalwareInvader</td></tr><tr><td>Presents the main menu when player load into the game<br>When 'new game' in menu is selected, start a new game and create the basic structure of the main game including all entities ,scores,GUI <br>
+<table><tr align = 'center'><td colspan = '2'>MalwareInvader</td></tr><tr><td>
+<!-- Presents the main menu when player load into the game<br> -->
+When 'new game' in menu is selected, start a new game and create the basic structure of the main game including all entities ,scores,GUI <br>
 Control the malware applications and supermalware to move or fire signal randomly <br>
 Draws the game interface whenver states are updated <br>
-Detect the collistion and call the corresponding exploision function of the exploded entity<br>
-Increment the score when player shot the malware application <br>
-Game is over when malware application reach the bottom of the screen or Phnoeix3000 run out of its lives</td>
+<!-- Detect the collistion and call the corresponding exploision function of the exploded entity<br> -->
+Detect the collistion and disappear 
+<!-- Increment the score when player shot the malware application <br> -->
+<!-- Game is over when malware application reach the bottom of the screen or Phnoeix3000 run out of its lives</td> -->
 <td>Phoneix3000<br>
 MalwareApp<br>
 FireWall<br>
