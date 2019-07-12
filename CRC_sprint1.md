@@ -59,15 +59,15 @@ Show MalwareExplosion effect
 Stores and updates all the current block locations within the wall, sent it to MalwareInvader
 </td><td>
 List of blocks
-</td></tr></table>>
+</td></tr></table>
 
 <table><tr align = 'center'><td colspan = '2'>Block</td></tr><tr><td>
 Stores four-corner coordinates
-</td><td></td></tr></table>>
+</td><td></td></tr></table>
 
 <table><tr align = 'center'><td colspan = '2'>Keystroke</td></tr><tr><td>
 Stores and updates left, right and shoot variables based on user inputs
-</td><td></td></tr></table>>
+</td><td></td></tr></table>
 
 <table><tr align = 'center'><td colspan = '2'>GUI of main game</td></tr><tr><td>
 Initialize the beginning page with options: "New Game", "Leaderboard" and "Sound On" <br> 
@@ -76,5 +76,5 @@ With userInput "Leaderboard" true, draw the Leaderboard page, which contains a "
 With userInput "Sound On" true, sound on <br>
 On Leaderboard page, when "back" true, jumps to "New Game"  page <br>
 On NewGame page, When receives gameover signal from MalwareInvader, jumps to "Leaderboard" page <br>
-</td><td>MalwareInvader</td></tr></table>>
+</td><td>MalwareInvader</td></tr></table>
 
