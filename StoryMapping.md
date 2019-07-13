@@ -9,4 +9,4 @@ As a malware application, I want to takeover the entire memory space, the more d
 As a Phoenix 3000, I can protect myself from viruses by hiding behind 4 defense firewalls that protect the system. <br />
 As a game developer, I want to make the GUI for the game. <br />
 
-![SprintChart](SpringChart.png)
+![SprintChart](SprintChart.png)
