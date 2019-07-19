@@ -39,11 +39,8 @@ Block
 </td></tr></table>
 
 <table><tr align = 'center'><td colspan = '2'>SuperMalware</td></tr><tr><td>
-SuperMalware can decide when to appear randomly every 30 seconds. <br>
-SuperMalware tells MalwareInvader it's entity information. <br>
-Based on system controlled horizontal movements, update its positions in entities
-<!-- Show explosion effect when I get shot<br> -->
-Disappears when get shot<br>
+<!--SuperMalware can decide when to appear randomly every 30 seconds. <br>SuperMalware tells MalwareInvader it's entity information. <br>Based on system controlled horizontal movements, update its positions in entities Show explosion effect when I get shot<br> -->
+add Explosion effect, sound effect and vibrates the phone when get shot<br>
 </td><td>Entities<br> MalwareInvader</td></tr></table>
 
 <table><tr align = 'center'><td colspan = '2'>MalwareApp</td></tr><tr><td>
