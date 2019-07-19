@@ -1,8 +1,6 @@
 <table><tr align = 'center'><td colspan = '2'>MalwareInvader</td></tr><tr><td>
 Presents the main menu when player load into the game<br> 
-Limits how many malware can fire and send the fire information to MalwareApp. <br>
-Detect the collision and call the corresponding explosion function of the exploded entity<br> 
-Game is over when malware application reach the bottom of the screen or Phoenix 3000 run out of its lives</td> 
+Add the general background music and display the background image</td> 
 <td>Phoenix3000<br>
 MalwareApp<br>
 FireWall<br>
@@ -20,13 +18,10 @@ Know the entities positions
 <td></td></tr></table>
 
 <table><tr align = 'center'><td colspan = '2'>Phoenix3000</td></tr><tr><td>
-Has all the states as entity<br>
-Initially has three lives and decrement one Whenever get shot<br>
-Move horizontally <br>
-Use KeyStroke to update position<br>
-Has physical signals and fire signals<br>
-Disappear when it get shot from malware app
-<!-- Sprint2: Explode when it get shot from malware app<br> -->
+<!--Has all the states as entity<br>Initially has three lives and decrement one Whenever get shot<br>Move horizontally <br>Use KeyStroke to update position<br>Has physical signals and fire signals<br>Disappear when it get shot from malware app-->
+Explosion effect and sound effects when it get shot from malware app<br>
+Vibrate the phone when get shot<br>
+sound effects when shooting the signal
 </td><td>
 Signal<br>
 Entities<br>
@@ -54,7 +49,7 @@ Disappears when get shot<br>
 <table><tr align = 'center'><td colspan = '2'>MalwareApp</td></tr><tr><td>
 It can propose to MalwareInvader that it wants to fire. <br>
 Based on confirmation signal sent by MalwareInvader, it fires the signal. <br>
-Show MalwareExplosion effect
+Show MalwareExplosion effect, sound effect and vibrates the phone when get shot
 </td><td>Signal <br> Entities<br>MalwareInvader
 </td></tr></table>
 
@@ -65,7 +60,7 @@ within the wall, sent it to MalwareInvader<br>
 </td></tr></table>
 
 <table><tr align = 'center'><td colspan = '2'>Block</td></tr><tr><td>
-Stores four-corner coordinates<br>
+Explosion effect, sound effect and vibrates the phone when get hit<br>
 </td><td></td></tr></table>
 
 <table><tr align = 'center'><td colspan = '2'>Keystroke</td></tr><tr><td>
@@ -78,4 +73,3 @@ With userInput "New Game" true, sent signal to MalwareInvader to set up the game
 On NewGame page, When receives gameover signal from MalwareInvader, jumps to "Leaderboard" page<!-- With userInput "Leaderboard" true, draw the Leaderboard page, which contains a "back" button <br> --><!-- With userInput "Sound On" true, sound on <br> -->
 <!-- On Leaderboard page, when "back" true, jumps to "New Game"  page <br> -->
 </td><td>MalwareInvader</td></tr></table>
-
