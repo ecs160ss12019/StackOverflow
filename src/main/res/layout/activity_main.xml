@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.stackoverflow.malwareinvaders.main_functions.MainActivity"
+    android:background="@drawable/codebackground">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Malware Invader"
+        android:layout_marginTop="100dp"
+        android:id="@+id/textView"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="133dp"
+        android:layout_height="141dp"
+        android:id="@+id/imageView"
+        app:srcCompat="@drawable/virus"
+        android:layout_marginTop="130dp"
+        android:layout_alignParentTop="@+id/textView"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/buttonStart"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/button"
+        android:layout_alignParentTop="@+id/imageView"
+        android:textColor="#ffff"
+        android:elevation="0dp"
+        android:text="Start Game" />
+
+    <Button
+        android:id="@+id/buttonBoard"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="320dp"
+        android:background="@drawable/button"
+        android:layout_alignParentTop="@+id/buttonStart"
+        android:textColor="#ffff"
+        android:elevation="0dp"
+        android:text="Leader board" />
+
+    <Button
+        android:id="@+id/buttonSetting"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="390dp"
+        android:background="@drawable/button"
+        android:layout_alignParentTop="@+id/buttonBoard"
+        android:textColor="#ffff"
+        android:elevation="0dp"
+        android:text="Difficulty" />
+</RelativeLayout>
