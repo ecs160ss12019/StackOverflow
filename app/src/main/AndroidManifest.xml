@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.stackoverflow.malwareinvaders">
+    package="com.stackoverflow.malwareinvaders.main_functions">
 
     <application
         android:allowBackup="true"
@@ -9,8 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MalwareInvaderActivity"
-            android:theme = "@android:style/Theme.NoTitleBar.Fullscreen"
+        <activity android:name="com.stackoverflow.malwareinvaders.main_functions.MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"
             android:screenOrientation = "portrait"
             >
             <intent-filter>
@@ -19,6 +19,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.stackoverflow.malwareinvaders.main_functions.ActivityBoard"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"
+            android:screenOrientation = "portrait"/>
+        <activity android:name="com.stackoverflow.malwareinvaders.main_functions.ActivitySetting"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"
+            android:screenOrientation = "portrait"/>
+        <activity android:name="com.stackoverflow.malwareinvaders.main_functions.MalwareInvaderActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"
+            android:screenOrientation = "portrait"></activity>
     </application>
 
 </manifest>
