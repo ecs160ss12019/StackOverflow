@@ -46,8 +46,8 @@
       <file leaf-file-name="MalwareInvader.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/stackoverflow/malwareinvaders/MalwareInvader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="599">
-              <caret line="712" column="0" lean-forward="true" selection-start-line="712" selection-start-column="0" selection-end-line="712" selection-end-column="0" />
+            <state relative-caret-position="220">
+              <caret line="690" column="40" lean-forward="false" selection-start-line="690" selection-start-column="40" selection-end-line="690" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -1882,6 +1882,24 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="malwareinvaders" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StackOverflow" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="manifests" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidManifestsGroupNode" />
             </PATH_ELEMENT>
@@ -2486,8 +2504,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/stackoverflow/malwareinvaders/MalwareInvader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="599">
-          <caret line="712" column="0" lean-forward="true" selection-start-line="712" selection-start-column="0" selection-end-line="712" selection-end-column="0" />
+        <state relative-caret-position="220">
+          <caret line="690" column="40" lean-forward="false" selection-start-line="690" selection-start-column="40" selection-end-line="690" selection-end-column="40" />
           <folding />
         </state>
       </provider>
