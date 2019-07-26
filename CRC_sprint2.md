@@ -21,7 +21,8 @@ Know the entities positions
 <!--Has all the states as entity<br>Initially has three lives and decrement one Whenever get shot<br>Move horizontally <br>Use KeyStroke to update position<br>Has physical signals and fire signals<br>Disappear when it get shot from malware app-->
 Explosion effect and sound effects when it get shot from malware app<br>
 Vibrate the phone when get shot<br>
-sound effects when shooting the signal
+sound effects when shooting the signal<br>
+Phoenix has ammo box and add more signals by hitting the drop weapon<br>
 </td><td>
 Signal<br>
 Entities<br>
@@ -70,3 +71,11 @@ With userInput "New Game" true, sent signal to MalwareInvader to set up the game
 On NewGame page, When receives gameover signal from MalwareInvader, jumps to "Leaderboard" page<!-- With userInput "Leaderboard" true, draw the Leaderboard page, which contains a "back" button <br> --><!-- With userInput "Sound On" true, sound on <br> -->
 <!-- On Leaderboard page, when "back" true, jumps to "New Game"  page <br> -->
 </td><td>MalwareInvader</td></tr></table>
+
+<table><tr align = 'center'><td colspan = '2'>DropItem</td></tr><tr><td>
+Create and update  the corresponding item to drop <br>
+Each dropitem has its own label ,either weapon or health portion.  <br>
+Dropitem as weapon will increase the number of bullets player has if phoenix hit the dropitem. <br>
+Dropitem as Health potions will increase lives player has if phoenix hit the dropitem. <br>
+
+</td><td>MalwareInvader<br> SuperMalware</td> </tr></table>
