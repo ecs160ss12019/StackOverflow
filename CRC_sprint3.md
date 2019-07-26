@@ -78,4 +78,8 @@ Each dropitem has its own label ,either weapon or health portion.  <br>
 Dropitem as weapon will increase the number of bullets player has if phoenix hit the dropitem. <br>
 Dropitem as Health potions will increase lives player has if phoenix hit the dropitem. <br>
 
-</td><td>MalwareInvader<br> SuperMalware</td> </tr></table>
+</td><td>MalwareInvader<br> soundresources</td> </tr></table>
+<table><tr align = 'center'><td colspan = '2'>DropItem</td></tr><tr><td>
+distribute each sound resource to each class <br>
+play the sound when conditions are fullfilled <br>
+</td><td>MalwareInvader<br> SuperMalware<br> Phoenix3000<br></td> </tr></table>
