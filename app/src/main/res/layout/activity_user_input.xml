@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.stackoverflow.malwareinvaders.main_functions.userInput">
+    tools:context="com.stackoverflow.malwareinvaders.main_functions.GameoverPop">
 
     <TextView
         android:id="@+id/textView1"
