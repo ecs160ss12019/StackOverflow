@@ -1,55 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:scrolling_image_view="http://schemas.android.com/apk/res-auto"
     tools:context="com.stackoverflow.malwareinvaders.main_functions.MainActivity"
-    android:background="@drawable/codebackground">
+    android:background="@color/colorBlack"
+    android:fillViewport="true"
+    >
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Malware Invader"
-        android:layout_marginTop="100dp"
-        android:id="@+id/textView"
-        android:textColor="#ffffff"
-        android:textSize="30dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+    <com.q42.android.scrollingimageview.ScrollingImageView
+        android:id="@+id/scrolling_background"
+        android:layout_width="306dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        scrolling_image_view:speed="1dp"
+        scrolling_image_view:src="@drawable/codebackground" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="133dp"
-        android:layout_height="141dp"
-        android:layout_alignLeft="@+id/buttonStart"
-        android:layout_alignStart="@+id/buttonStart"
-        android:layout_below="@+id/textView"
-        app:srcCompat="@drawable/virus" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-    <Button
-        android:id="@+id/buttonStart"
-        android:layout_width="140dp"
-        android:layout_height="50dp"
-        android:layout_below="@+id/imageView"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="21dp"
-        android:background="@drawable/button"
-        android:elevation="0dp"
-        android:text="Start Game"
-        android:textColor="#ffff" />
+        <TextView
+            android:id="@+id/textView"
+            android:fontFamily="@font/arcadeclassic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            android:text="Malware Invader"
+            android:textColor="#ffffff"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            />
 
-    <Button
-        android:id="@+id/buttonBoard"
-        android:layout_width="140dp"
-        android:layout_height="50dp"
-        android:layout_alignLeft="@+id/imageView"
-        android:layout_alignStart="@+id/imageView"
-        android:layout_below="@+id/buttonStart"
-        android:layout_marginTop="35dp"
-        android:background="@drawable/button"
-        android:elevation="0dp"
-        android:text="Leader board"
-        android:textColor="#ffff" />
 
-</RelativeLayout>
+        <Button
+            android:id="@+id/buttonStart"
+            android:fontFamily="@font/arcadeclassic"
+            android:layout_width="140dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/textView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/button"
+            android:textSize="15dp"
+            android:elevation="0dp"
+            android:text="Start Game"
+            android:textColor="#ffff" />
+
+        <Button
+            android:id="@+id/buttonBoard"
+            android:fontFamily="@font/arcadeclassic"
+            android:layout_width="140dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/buttonStart"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/button"
+            android:elevation="0dp"
+            android:textSize="15dp"
+            android:text="Leader board"
+            android:textColor="#ffff" />
+
+    </RelativeLayout>
+
+</FrameLayout>
+
+
+

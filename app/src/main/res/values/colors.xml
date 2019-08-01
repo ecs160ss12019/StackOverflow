@@ -7,4 +7,6 @@
     <color name="colorGreen">#45bc62</color>
     <color name="colorWhite">#fff</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="colorBlack">#000000</color>
+
 </resources>
