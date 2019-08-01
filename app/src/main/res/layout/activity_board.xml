@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.stackoverflow.malwareinvaders.main_functions.ActivityBoard"
-    android:background="@drawable/scoreboardBG">
+    android:background="@drawable/scoreboardbg">
 
     <TextView
         android:id="@+id/textView"
@@ -35,9 +35,7 @@
             android:layout_height="50dp"
             android:layout_marginBottom="10dp"
             android:layout_marginEnd="20dp"
-            android:layout_marginRight="12dp"
-            android:layout_toLeftOf="@+id/buttonMedium"
-            android:layout_toStartOf="@+id/buttonMedium"
+            android:layout_alignParentBottom="true"
             android:background="@drawable/backarrow"
             android:textColor="#ffff" />
     </LinearLayout>

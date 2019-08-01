@@ -33,8 +33,21 @@
             android:layout_marginTop="100dp"
             android:fontFamily="@font/arcadeclassic"
             android:text="Malware Invader"
-            android:textColor="#ffffff"
+            android:textColor="@color/colorOrgange"
             android:textSize="35sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/morsecode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/arcadeclassic"
+            android:gravity="center"
+            android:text="-- .- .-.. .-- .- .-. . / .. -. ...- .- -.. . .-."
+            android:textColor="@color/colorOrgange"
+            android:textSize="15sp"
             android:textStyle="bold" />
 
 
@@ -42,13 +55,13 @@
             android:id="@+id/buttonStart"
             android:layout_width="140dp"
             android:layout_height="50dp"
-            android:layout_below="@+id/textView"
+            android:layout_above="@+id/buttonBoard"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="100dp"
+            android:layout_marginBottom="39dp"
             android:background="@drawable/button"
             android:elevation="0dp"
             android:fontFamily="@font/arcadeclassic"
-            android:text="Start Game"
+            android:text= "Start Game"
             android:textColor="#ffff"
             android:textSize="15sp" />
 
@@ -56,13 +69,13 @@
             android:id="@+id/buttonBoard"
             android:layout_width="140dp"
             android:layout_height="50dp"
-            android:layout_below="@+id/buttonStart"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="35dp"
+            android:layout_above="@+id/gifImageView"
+            android:layout_alignStart="@+id/buttonStart"
             android:background="@drawable/button"
             android:elevation="0dp"
             android:fontFamily="@font/arcadeclassic"
-            android:text="Leader board"
+            android:text="Leader board
+"
             android:textColor="#ffff"
             android:textSize="15sp" />
 
@@ -71,7 +84,8 @@
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
-            android:src="@drawable/backgroundgif" />
+            android:src="@drawable/backgroundgif"
+            android:id="@+id/gifImageView" />
 
 
 
