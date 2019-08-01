@@ -19,47 +19,37 @@
         android:layout_centerHorizontal="true" />
 
     <ImageView
+        android:id="@+id/imageView"
         android:layout_width="133dp"
         android:layout_height="141dp"
-        android:id="@+id/imageView"
-        app:srcCompat="@drawable/virus"
-        android:layout_marginTop="130dp"
-        android:layout_alignParentTop="@+id/textView"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignLeft="@+id/buttonStart"
+        android:layout_alignStart="@+id/buttonStart"
+        android:layout_below="@+id/textView"
+        app:srcCompat="@drawable/virus" />
 
     <Button
         android:id="@+id/buttonStart"
         android:layout_width="140dp"
         android:layout_height="50dp"
+        android:layout_below="@+id/imageView"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="250dp"
+        android:layout_marginTop="21dp"
         android:background="@drawable/button"
-        android:layout_alignParentTop="@+id/imageView"
-        android:textColor="#ffff"
         android:elevation="0dp"
-        android:text="Start Game" />
+        android:text="Start Game"
+        android:textColor="#ffff" />
 
     <Button
         android:id="@+id/buttonBoard"
         android:layout_width="140dp"
         android:layout_height="50dp"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="320dp"
+        android:layout_alignLeft="@+id/imageView"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_below="@+id/buttonStart"
+        android:layout_marginTop="35dp"
         android:background="@drawable/button"
-        android:layout_alignParentTop="@+id/buttonStart"
-        android:textColor="#ffff"
         android:elevation="0dp"
-        android:text="Leader board" />
+        android:text="Leader board"
+        android:textColor="#ffff" />
 
-    <Button
-        android:id="@+id/buttonSetting"
-        android:layout_width="140dp"
-        android:layout_height="50dp"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="390dp"
-        android:background="@drawable/button"
-        android:layout_alignParentTop="@+id/buttonBoard"
-        android:textColor="#ffff"
-        android:elevation="0dp"
-        android:text="Difficulty" />
 </RelativeLayout>
