@@ -12,60 +12,72 @@
 
     <com.q42.android.scrollingimageview.ScrollingImageView
         android:id="@+id/scrolling_background"
-        android:layout_width="306dp"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_gravity="center"
-        scrolling_image_view:speed="1dp"
-        scrolling_image_view:src="@drawable/codebackground" />
+        android:layout_marginBottom="50dp"
+        scrolling_image_view:speed="3dp"
+        scrolling_image_view:src="@drawable/mybackground" />
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+
         <TextView
             android:id="@+id/textView"
-            android:fontFamily="@font/arcadeclassic"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="100dp"
+            android:fontFamily="@font/arcadeclassic"
             android:text="Malware Invader"
             android:textColor="#ffffff"
-            android:textSize="35dp"
-            android:textStyle="bold"
-            />
+            android:textSize="35sp"
+            android:textStyle="bold" />
 
 
         <Button
             android:id="@+id/buttonStart"
-            android:fontFamily="@font/arcadeclassic"
             android:layout_width="140dp"
             android:layout_height="50dp"
             android:layout_below="@+id/textView"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="100dp"
             android:background="@drawable/button"
-            android:textSize="15dp"
             android:elevation="0dp"
+            android:fontFamily="@font/arcadeclassic"
             android:text="Start Game"
-            android:textColor="#ffff" />
+            android:textColor="#ffff"
+            android:textSize="15sp" />
 
         <Button
             android:id="@+id/buttonBoard"
-            android:fontFamily="@font/arcadeclassic"
             android:layout_width="140dp"
             android:layout_height="50dp"
-            android:layout_centerHorizontal="true"
             android:layout_below="@+id/buttonStart"
+            android:layout_centerHorizontal="true"
             android:layout_marginTop="35dp"
             android:background="@drawable/button"
             android:elevation="0dp"
-            android:textSize="15dp"
+            android:fontFamily="@font/arcadeclassic"
             android:text="Leader board"
-            android:textColor="#ffff" />
+            android:textColor="#ffff"
+            android:textSize="15sp" />
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/backgroundgif" />
+
+
 
     </RelativeLayout>
+
+
 
 </FrameLayout>
 

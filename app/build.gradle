@@ -4,7 +4,7 @@ android {
     compileSdkVersion 26
     defaultConfig {
         applicationId "com.example.wendaxu.homepage"
-        minSdkVersion 16
+        minSdkVersion 17
         targetSdkVersion 26
         versionCode 1
         versionName "1.0"
@@ -22,6 +22,8 @@ dependencies {
     implementation 'com.android.support:support-annotations:27.1.1'
     //Add library for scrolling image view
     implementation 'com.github.Q42:AndroidScrollingImageView:1.3.3'
+    //Add library for adding gif
+    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.17'
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'com.android.support:appcompat-v7:26.1.0'
     implementation 'com.android.support.constraint:constraint-layout:1.1.3'
