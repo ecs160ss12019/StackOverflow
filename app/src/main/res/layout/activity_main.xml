@@ -16,21 +16,29 @@
         android:layout_height="match_parent"
         android:layout_gravity="center"
         android:layout_marginBottom="50dp"
-        scrolling_image_view:speed="3dp"
+        scrolling_image_view:speed="10dp"
         scrolling_image_view:src="@drawable/mybackground" />
+
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_marginTop="25dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/hackerlogo"
+        />
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/logotextview"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="100dp"
+            android:layout_marginTop="125dp"
             android:fontFamily="@font/arcadeclassic"
             android:text="Malware Invader"
             android:textColor="@color/colorOrgange"
@@ -41,7 +49,7 @@
             android:id="@+id/morsecode"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/textView"
+            android:layout_below="@+id/logotextview"
             android:layout_centerHorizontal="true"
             android:fontFamily="@font/arcadeclassic"
             android:gravity="center"
