@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="40dp"
         android:fontFamily="@font/arcadeclassic"
         android:text="Build your user profile"
         android:textAppearance="?android:attr/textAppearanceLarge"
@@ -30,13 +30,13 @@
         android:layout_marginLeft="15dp"
         android:layout_marginStart="15dp"
         android:layout_marginTop="25dp"
-        android:text="Please enter your name: "
+        android:text="Please  enter  your  name: "
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:textColor="@color/colorOrgange" />
 
     <EditText
         android:id="@+id/editText1"
-        android:layout_width="wrap_content"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:fontFamily="@font/arcadeclassic"
         android:layout_alignLeft="@+id/textView2"
@@ -55,7 +55,7 @@
     <Button
         android:id="@+id/button1"
         android:fontFamily="@font/arcadeclassic"
-        android:layout_width="wrap_content"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/editText1"
         android:layout_centerHorizontal="true"
@@ -68,7 +68,7 @@
     <Button
         android:id="@+id/button2"
         android:fontFamily="@font/arcadeclassic"
-        android:layout_width="wrap_content"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/button1"
         android:layout_alignStart="@+id/button1"
@@ -82,7 +82,7 @@
     <Button
         android:id="@+id/button3"
         android:fontFamily="@font/arcadeclassic"
-        android:layout_width="wrap_content"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/button2"
         android:layout_alignStart="@+id/button2"
