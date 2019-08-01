@@ -3,15 +3,38 @@
     android:layout_width="match_parent" android:layout_height="match_parent">
 
     <Button
-        android:id="@+id/pauseButton"
-        android:layout_width="35dp"
-        android:layout_height="35dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginEnd="27dp"
-        android:layout_marginRight="27dp"
-        android:layout_marginTop="42dp"
-        android:background="@drawable/pause"
-        android:onClick="pauseGame" />
+    android:id="@+id/pauseButton"
+    android:layout_width="35dp"
+    android:layout_height="35dp"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginEnd="27dp"
+    android:layout_marginRight="27dp"
+    android:layout_marginTop="42dp"
+    android:background="@drawable/pause"
+    android:onClick="pauseGame" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="bottom"
+        >
+
+
+        <Button
+            android:id="@+id/musicOffButton"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/musicoff"
+            android:onClick="controlMusic"
+            android:layout_gravity="bottom"
+            />
+
+
+
+    </LinearLayout>
+
+
 </RelativeLayout>
