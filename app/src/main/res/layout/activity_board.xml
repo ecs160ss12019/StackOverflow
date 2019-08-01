@@ -15,6 +15,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="32dp"
         android:text="Score Board"
+        android:fontFamily="@font/arcadeclassic"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textColor="#FFFFFF"
         android:textSize="30dp" />
@@ -26,16 +27,16 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/textView"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="20dp"
         android:orientation="vertical">
 
         <Button
             android:id="@+id/backbutton"
             android:layout_width="56dp"
             android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
             android:layout_marginBottom="10dp"
             android:layout_marginEnd="20dp"
-            android:layout_alignParentBottom="true"
             android:background="@drawable/backarrow"
             android:textColor="#ffff" />
     </LinearLayout>

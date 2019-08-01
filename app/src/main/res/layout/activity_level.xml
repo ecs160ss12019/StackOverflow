@@ -21,6 +21,8 @@
         android:background="@drawable/setbutton"
         android:elevation="0dp"
         android:text="Easy"
+        android:textSize="25sp"
+        android:fontFamily="@font/arcadeclassic"
         android:textColor="#ffff" />
 
     <Button
@@ -37,6 +39,9 @@
         android:background="@drawable/setbutton"
         android:elevation="0dp"
         android:text="Medium"
+        android:textSize="25sp"
+
+        android:fontFamily="@font/arcadeclassic"
         android:textColor="#ffff" />
 
     <Button
@@ -50,6 +55,8 @@
         android:background="@drawable/setbutton"
         android:elevation="0dp"
         android:text="Hard"
+        android:textSize="25sp"
+        android:fontFamily="@font/arcadeclassic"
         android:textColor="#ffff" />
 
     <Button
@@ -63,7 +70,7 @@
         android:layout_marginRight="12dp"
         android:layout_toLeftOf="@+id/buttonMedium"
         android:layout_toStartOf="@+id/buttonMedium"
-        android:background="@drawable/backbutton2"
+        android:background="@drawable/backarrow"
         android:elevation="0dp"
         android:textColor="#ffff" />
 

@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/overbackground"
     tools:context="com.stackoverflow.malwareinvaders.main_functions.GameoverPop">
 
     <TextView
@@ -12,13 +13,15 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/arcadeclassic"
         android:text="Build your user profile"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:textColor="#A4C639" />
+        android:textColor="@color/colorOrgange" />
 
     <TextView
         android:id="@+id/textView2"
+        android:fontFamily="@font/arcadeclassic"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
@@ -27,15 +30,15 @@
         android:layout_marginLeft="15dp"
         android:layout_marginStart="15dp"
         android:layout_marginTop="25dp"
-        android:text="Please enter your name: "
+        android:text="Please  enter  your  name: "
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:textColor="#0099FF" />
+        android:textColor="@color/colorOrgange" />
 
     <EditText
         android:id="@+id/editText1"
-        android:layout_width="wrap_content"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
-
+        android:fontFamily="@font/arcadeclassic"
         android:layout_alignLeft="@+id/textView2"
         android:layout_alignStart="@+id/textView2"
         android:layout_below="@+id/textView2"
@@ -51,37 +54,43 @@
 
     <Button
         android:id="@+id/button1"
-        android:layout_width="wrap_content"
+        android:fontFamily="@font/arcadeclassic"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/editText1"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="64dp"
-        android:background="#0099FF"
         android:text="Submit"
+        android:textSize="20sp"
+        android:background="@drawable/button"
         android:textColor="#FFFFFF" />
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="wrap_content"
+        android:fontFamily="@font/arcadeclassic"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/button1"
         android:layout_alignStart="@+id/button1"
         android:layout_below="@+id/button1"
         android:layout_marginTop="71dp"
-        android:background="#0099FF"
+        android:background="@drawable/button"
         android:text="Start Game"
+        android:textSize="20sp"
         android:textColor="#FFFFFF" />
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="wrap_content"
+        android:fontFamily="@font/arcadeclassic"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/button2"
         android:layout_alignStart="@+id/button2"
         android:layout_below="@+id/button2"
         android:layout_marginTop="71dp"
-        android:background="#0099FF"
-        android:text="LearderBoard"
+        android:background="@drawable/button"
+        android:text="Learder Board"
+        android:textSize="20sp"
         android:textColor="#FFFFFF" />
 
 
