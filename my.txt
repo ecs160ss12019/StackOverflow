@@ -1,0 +1,759 @@
+commit 1c8dbae32962b0bf5d0a1d509b8a9af1324ad44f
+Merge: e65d404 55628c4
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Fri Aug 2 01:54:37 2019 -0700
+
+    Merge branch 'master' of https://github.com/ecs160ss12019/StackOverflow
+
+commit e65d40485f4e8c7c9b12b91fd060eeca62ea2517
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Fri Aug 2 01:54:26 2019 -0700
+
+    Fix supermalware disapear bug
+
+commit 6b485db491fd79d64425eb7362432374e7ace828
+Merge: 830dd93 f5489b8
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Thu Aug 1 22:14:37 2019 -0700
+
+    Merge branch 'master' of https://github.com/ecs160ss12019/StackOverflow
+
+commit 830dd93c975323fda8fd90f3fdbd81a62028afc9
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Thu Aug 1 22:14:22 2019 -0700
+
+    retrive code
+
+commit 10126ea0f8ff6a5360c90f23afdfa3bdf5639929
+Merge: bbe71b6 ac9593a
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Thu Aug 1 18:08:19 2019 -0700
+
+    Merge branch 'master' of https://github.com/ecs160ss12019/StackOverflow
+
+commit bbe71b60993fed4122493e54fa96925aa5540397
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Thu Aug 1 18:07:59 2019 -0700
+
+    Fix difficulty page display and adjust main menu
+
+commit 36f630899fa9986dd926d3caf0cd4d674741bc5e
+Merge: 0faa095 c7fad35
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Thu Aug 1 17:31:14 2019 -0700
+
+    Merge branch 'master' of https://github.com/ecs160ss12019/StackOverflow
+
+commit 0faa0954578035d437797ec1325eceaee17717a1
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Thu Aug 1 17:30:57 2019 -0700
+
+    retrieve code
+
+commit 5c21b1ba43346dd7bedd1508f449593a2b79f775
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Thu Aug 1 16:52:56 2019 -0700
+
+    fix bug
+
+commit be62bd3007811c4eb20dd0330b99eda4c71b96e5
+Merge: 92d1736 d80c08b
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Thu Aug 1 16:40:55 2019 -0700
+
+    Merge branch 'master' of https://github.com/ecs160ss12019/StackOverflow
+
+commit 92d1736bc48e92c711915b86b29b5a600b98fb90
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Thu Aug 1 16:39:57 2019 -0700
+
+    Fix gamepopup nullpointer bug
+    
+    if user don't enter its name, the edittext is null. Call gettext() will cause nullpointer issue
+
+commit 19e72664ff63a147a760de91c6919598387fd43b
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Thu Aug 1 15:07:11 2019 -0700
+
+    Adjust game over page ui
+
+commit ab430eb06ba4448ab1716c33bae4ad8d684b3911
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Thu Aug 1 15:03:43 2019 -0700
+
+    Add game logo and change game over page bg
+
+commit 5fe349db98355f9951570b2fb88d5076aceb0750
+Merge: 2c7bb0c f70948b
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Thu Aug 1 13:21:23 2019 -0700
+
+    Merge branch 'master' of https://github.com/ecs160ss12019/StackOverflow
+
+commit 2c7bb0c95dae0ee2efa16ca41ef94cbf9f21dc74
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Thu Aug 1 13:21:02 2019 -0700
+
+    Adjust the button on main menu
+
+commit bc263ce46925f553e508010b5e08b7003ce9f180
+Merge: bd86f8f 0ce6ef5
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Thu Aug 1 12:39:09 2019 -0700
+
+    Merge branch 'master' of https://github.com/ecs160ss12019/StackOverflow
+
+commit bd86f8ff6247933054b612c7bfa2ca62ca101773
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Thu Aug 1 12:39:07 2019 -0700
+
+    Main Menu: animate background
+    
+    use Scrolling view and gif view ( edit build file )
+
+commit a7e115fbe0d002eb2e73f8629c8635d699badbd0
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Thu Aug 1 05:21:46 2019 -0700
+
+    Design main menu GUI: place scrolling background
+
+commit 8f9fb608c3b94f496d7768969efdff982803dbed
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Thu Aug 1 04:01:23 2019 -0700
+
+    Fix gamepopup nullpointer bug and deal with invalid user name. Fix the background music bug
+
+commit c367494368fbcee669dbd3715235f1361825125f
+Merge: 0d4efe3 3ac63d4
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Thu Aug 1 03:32:29 2019 -0700
+
+    Merge branch 'master' of https://github.com/ecs160ss12019/StackOverflow
+
+commit 0d4efe3eec223baf416f774957521d81dda7e1f3
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Thu Aug 1 03:32:10 2019 -0700
+
+    add button on gamepopup
+
+commit 469be599a76d96db6cb2037bfb65d20c9d6b23e6
+Merge: 6f21a32 2aad197
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Thu Aug 1 01:51:52 2019 -0700
+
+    Merge branch 'master' of https://github.com/ecs160ss12019/StackOverflow
+
+commit 6f21a32a6f4ba7c6d5755d1d3b0fb35724a84721
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Thu Aug 1 01:51:27 2019 -0700
+
+    retrieve code
+
+commit 0053a6232ca06005de128c0e2e4df0e001586b18
+Merge: 3aac2bb 7cbb4dc
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Thu Aug 1 01:39:58 2019 -0700
+
+    Merge branch 'master' of https://github.com/ecs160ss12019/StackOverflow
+
+commit 3aac2bb197e10c50835d09bc2cffa9bfe4fc2bb7
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Thu Aug 1 01:38:06 2019 -0700
+
+    Create service class and set up background music
+
+commit 2fac0e9e4b15614f7fafc13508e0aef63cbab4a1
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Thu Aug 1 00:18:19 2019 -0700
+
+    add Explosion music effect
+
+commit 913143c333d7734ea4de4ccd82333492e8d8feb6
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Wed Jul 31 23:57:44 2019 -0700
+
+    update gameover pop up : add new button
+
+commit ba894515f221b1f1153af213259a3a9fe78c3daf
+Merge: e66b87b 45d7e8f
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Wed Jul 31 23:36:47 2019 -0700
+
+    Merge branch 'master' of https://github.com/ecs160ss12019/StackOverflow
+
+commit e66b87bab8cff5a360e0df7034425f3ae2e89919
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Wed Jul 31 23:36:06 2019 -0700
+
+    Extract draw method in Game Engine
+    
+    Each game object class has its own draw method
+
+commit 78b5897a9f93b6e23cb89e846ae810354225ef1d
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Wed Jul 31 22:04:04 2019 -0700
+
+    Refractoring: Set image in game object own class
+    
+    For single responbility principle
+
+commit 3d49b1d720dc948cf3c9e91cf727fc7400b01aaa
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Wed Jul 31 21:50:25 2019 -0700
+
+    Refractoring : Extract MalwareGroup class
+    
+    Create different MalwareApp type.
+    Create and initialize signal in MalwareApp class instead of game engine.
+
+commit 4b355757331d1b2a5e08739e91382120d3b750ca
+Merge: 06d2bfe e08de50
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Wed Jul 31 14:14:18 2019 -0700
+
+    Merge branch 'master' of https://github.com/ecs160ss12019/StackOverflow
+
+commit 06d2bfe85ffc229d58acea84828363df3bc9fbb0
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Wed Jul 31 14:13:56 2019 -0700
+
+    Fix bugs and retrive code
+
+commit 89710f4a35764869298ea67efca384210774fcac
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Wed Jul 31 13:56:42 2019 -0700
+
+    Fix bug : Malware disappear
+    
+    running function bug
+
+commit f381bc37aebc69980f81b4dabc889242153373b3
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Wed Jul 31 01:09:19 2019 -0700
+
+    Fix bug of Pause Dialog
+    
+    Prevent the dialog automatically dismissing
+
+commit 2e990ebeba2a1c908220a3f37207eeb08688a4d8
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Tue Jul 30 23:33:35 2019 -0700
+
+    Implement Pause menu
+    
+    Design change: use FrameLayout and Relativeout for game page
+    Pause menu: Use Dialog as pop up menu
+    Pause menu contains "resume" and "main menu" buttons
+
+commit d263b606079eeced79e8d61f33557bd2f8b796c3
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Fri Jul 26 12:44:04 2019 -0700
+
+    Update the font sytle of HUD
+
+commit 617438ecea9e605a55b58cfa21b874aff505ac64
+Merge: 2461cbd 931e321
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Fri Jul 26 11:43:21 2019 -0700
+
+    Merge branch 'master' of https://github.com/ecs160ss12019/StackOverflow
+
+commit 2461cbd9da0b3cf3dea8061d9ea6dbe8ba10ce3d
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Fri Jul 26 10:41:38 2019 -0700
+
+    Fix touching problem and add graphics for lives
+
+commit 30b7c8d5a68e3ae5f1b04b18477627513696746f
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Fri Jul 26 02:19:47 2019 -0700
+
+    update screenshots
+
+commit 1d431bcf1ce4d8d3373270233ba8684fbe75f1f8
+Author: waiyulam <waiyu0616@outlook.com>
+Date:   Fri Jul 26 02:19:20 2019 -0700
+
+    Update README.md
+
+commit 8d68f470faa29e8b15e82827f1ef6d08850f1a4f
+Merge: e0254e2 0c3c5d4
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Thu Jul 25 23:20:40 2019 -0700
+
+    Merge branch 'master' of https://github.com/ecs160ss12019/StackOverflow
+
+commit e0254e20baa3c5d2f431ae0bf05adfebe089fc0c
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Thu Jul 25 23:19:30 2019 -0700
+
+    retrieve the code
+
+commit 73ca677f5682bee67680df826943216195ef0b3b
+Merge: 6337d43 2cd21c4
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Thu Jul 25 23:10:58 2019 -0700
+
+    Merge branch 'master' of https://github.com/ecs160ss12019/StackOverflow
+
+commit 6337d430bb06601ed5e15120be60885467190c7d
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Thu Jul 25 23:09:13 2019 -0700
+
+    merge
+
+commit df477dc9993b41c62c63ab17f25400cde88f7dcc
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Thu Jul 25 12:28:13 2019 -0700
+
+    Update CRC card for sprint2
+    
+    Add the crc card for dropitem class
+
+commit 7f2027ae460e235051037f734a461afe975dbfd8
+Merge: ab38b3c f0076f0
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Thu Jul 25 10:43:33 2019 -0700
+
+    Merge branch 'master' of https://github.com/ecs160ss12019/StackOverflow
+
+commit ab38b3c7959e7c48b63f8629467a3f66d66a6d14
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Thu Jul 25 10:42:47 2019 -0700
+
+    merge
+
+commit 2a5d8bd24f736a7a1014551cea96f98cabef3fd7
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Thu Jul 25 01:57:13 2019 -0700
+
+    Replace new Weapon icon
+
+commit 6e21abf6e23b5f22378f1a0da41922e1a0698d0c
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Thu Jul 25 01:47:26 2019 -0700
+
+    Create Dropitem class: drop either weapon or potion
+    
+    Redesign the dropitem class. Supermalware will randomly drop potion or weapon
+
+commit 8aa44674d517c3049c0719da217b90b1fc3385fb
+Merge: a29fe2c 0183f03
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Wed Jul 24 19:54:51 2019 -0700
+
+    Merge branch 'master' of https://github.com/ecs160ss12019/StackOverflow
+
+commit a29fe2c389f53cdfbd59bf5bfb39d63f7f99bda6
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Wed Jul 24 19:53:39 2019 -0700
+
+    Create Weapon drop class and enable multiple signals for phoenix
+    
+    Phoenix will get more weapon when it hit the supermalware. The new weapon will drop from the supermalware and phoenix need to go get it so it will have more signals
+
+commit 0fd8cc6d479c3119e50ffc78297e687f0362f408
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Wed Jul 24 17:53:27 2019 -0700
+
+    update the reset functions
+
+commit 8b1dff8b66bbd989375dcd15fbd203452ac5554e
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Wed Jul 24 17:38:34 2019 -0700
+
+    update code
+
+commit 834fefdd271341d6e4e78370fbe15de6bf4220d7
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Wed Jul 24 14:08:53 2019 -0700
+
+    Debug multi touch
+
+commit 2d46b7b36f6521c684b91d4b843206d6e65b2fbd
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Wed Jul 24 12:26:50 2019 -0700
+
+    Fix multi touch
+    
+    use pointer id to keep track of multi touch on the screen
+
+commit 3ad472e5dfcd70d38dbb5a217761f1c1c2d36e9a
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Tue Jul 23 19:47:05 2019 -0700
+
+    update code
+
+commit 081f1ab46634d2afccf23d37d11599114f79996b
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Tue Jul 23 17:19:39 2019 -0700
+
+    Improve Scrolling
+    
+    pheonix now will only move the distance where user touch traveling on the screen rather than keep moving
+
+commit 685e9073924767c5ac7767012dec93f3ef551825
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Tue Jul 23 15:33:01 2019 -0700
+
+    Improve scrolling experience and Enable multi touch
+
+commit c8fdd0450fcdc5cdeffa31ebb5789198559bff11
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Mon Jul 22 15:49:50 2019 -0700
+
+    Enable double tap for shooting
+    
+    Update the user touch handling and detect the double tapping which will trigger the phoenix to shot signal
+
+commit 1ba9ec579063e03f9ba001bac646bfa0665f101f
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Mon Jul 22 15:20:36 2019 -0700
+
+    Improve scrolling
+
+commit 0f9bf6c80b27327b719b699b175600db56fbe45a
+Merge: 40a3c34 9000725
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Mon Jul 22 15:05:22 2019 -0700
+
+    Merge branch 'master' of https://github.com/ecs160ss12019/StackOverflow
+
+commit 40a3c34ecf0420475c32e90fa86c5eb81adc5079
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Mon Jul 22 15:03:55 2019 -0700
+
+    Enable scrolling the Phoenix by user
+    
+    Improve the user touching handling and enable scrolling Phoenix to move
+
+commit 4c2f99321664dbbcfd485363914a48df8147562a
+Merge: 595e4e1 6398914
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Mon Jul 22 13:42:13 2019 -0700
+
+    Merge branch 'master' of https://github.com/ecs160ss12019/StackOverflow
+
+commit 595e4e1bddb44c08e1f7d0c5b2ec7e1bf8616ced
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Mon Jul 22 13:38:10 2019 -0700
+
+    update the user touching handling and create own gesture listner
+
+commit 1dd32b86c8d6aebb7f922d671b669c42c669fa19
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Tue Jul 16 17:44:52 2019 -0700
+
+    update MalwareApp reset function
+
+commit 4a558407bdf475eab87107aee6afb8c07f4eae96
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Tue Jul 16 17:30:36 2019 -0700
+
+    update MalwareInvader with isVisible function
+
+commit 9050bbda930f8926e93de131c8e18e1dc1bccc9c
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Tue Jul 16 13:36:10 2019 -0700
+
+    update collision detection and score
+
+commit 04325837b6fe93f0a49c5c2cbd2e54f2fe679e02
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Tue Jul 16 13:20:05 2019 -0700
+
+    Build Entities parent class for all game objects
+
+commit 38bf9696a4d83c5873f116905d33962a1556d6a3
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Tue Jul 16 11:57:00 2019 -0700
+
+    change the malware app color
+
+commit 8be441bec61f6652150bcb463b81fa2ffcb3e69e
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Tue Jul 16 11:54:02 2019 -0700
+
+    update detection collision
+
+commit ac8362496ae879484d1735ac2e6e3016be659f1d
+Merge: f01300e 9979441
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Tue Jul 16 11:12:40 2019 -0700
+
+    update MalwareInvader
+
+commit f01300e6a75b0c5297a84a913a7f22e7a24c8bd7
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Tue Jul 16 10:51:15 2019 -0700
+
+    put my code back
+
+commit ad07f659a6c51bc245d324fbc1fe2381487f6214
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Tue Jul 16 02:39:04 2019 -0700
+
+    Update Signal class; Redesign the touching handling for shooting sigal from Phoenix; Update Phoenix class with Signal object; Update the game engine to draw and control the Phoenix signal
+
+commit bc2acbbff4428648e229c8ea800639144aaf0981
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Mon Jul 15 23:50:27 2019 -0700
+
+    update MalwareInvader
+
+commit 29f8c6db0cf5e485ccb0762b754105b6b7753272
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Mon Jul 15 23:38:12 2019 -0700
+
+    design the touch handling for Pheonix object
+
+commit 66686bd46b47c3cfa4a91da100ad279d5c070092
+Merge: 608853a 9db85da
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Mon Jul 15 23:23:30 2019 -0700
+
+    Change build up files
+
+commit 608853a0250877a1112c221e4866828515e07fed
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Mon Jul 15 23:15:14 2019 -0700
+
+    Use recF class to get access of the precise position and size of phoenix
+    Write the update method to decide which direction to move and update its position
+
+commit 34997cf92fa2048a100a8ac10246acd3e3fb8169
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Mon Jul 15 00:30:39 2019 -0700
+
+    update Phoenix3000
+
+commit d55100b475d15554160059a0c779d901cf27656b
+Merge: da67f4e 78cb286
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Mon Jul 15 00:12:55 2019 -0700
+
+    update Malware
+
+commit da67f4e8852c6bc13e873d2be03a7dcb8b65ab46
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Mon Jul 15 00:11:54 2019 -0700
+
+    initilize thread variables
+
+commit 447dab73da1bcecec9bd9d01d754a2662f5c259a
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Mon Jul 15 00:04:21 2019 -0700
+
+    update drawing function
+
+commit 8e0e781bce54f484bacb5ca198219d41449a19aa
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Sun Jul 14 23:57:51 2019 -0700
+
+    update drawing function
+
+commit a859c78817f33b9df204846711d8c0cfae8c32c3
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Sun Jul 14 23:51:31 2019 -0700
+
+    Update MalwareInvader.java
+
+commit 5a8654bf504c0c5c8a6f71ca9e51c86a00e39302
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Sun Jul 14 23:40:31 2019 -0700
+
+    Initialize Activity Class
+
+commit bc61a8480881759eb8d8724d19f2e2d32be221ff
+Merge: 4ccf8f0 92475dd
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Sun Jul 14 22:50:51 2019 -0700
+
+    easy layout
+
+commit 4ccf8f0ebbeedb30ddd24fb637f7fd8e256f84f8
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Sun Jul 14 22:48:55 2019 -0700
+
+    pull
+
+commit eb3107e5fa7937600522ff57f9b5155aaeb6ab73
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Fri Jul 12 14:06:18 2019 -0700
+
+    put CRC cards back
+
+commit fd2f652c44ac916c61cb7368b73b258d9409c51b
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Thu Jul 11 16:44:11 2019 -0700
+
+    rename project
+
+commit 0214c195b39066b1733a3fdf0b770b78641c8a7d
+Merge: 1ba8670 2051fd6
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Thu Jul 11 16:12:44 2019 -0700
+
+    Merge branch 'master' of https://github.com/ecs160ss12019/StackOverflow
+
+commit 1ba86703e430e38764ad0e3a442db9aad28259d7
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Thu Jul 11 16:12:38 2019 -0700
+
+    update README
+
+commit 1bad773cd734d0dedce564b27f217e05ef6c2a0b
+Merge: 9adb3c0 c63686d
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Thu Jul 11 15:48:32 2019 -0700
+
+    update crc
+
+commit 9adb3c05bbcb3cae15aad7c7adcbc420489c04ef
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Thu Jul 11 15:46:18 2019 -0700
+
+    update crc
+
+commit af12ab5fc23e146917c7d47a4c07ec6fdfe24579
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Thu Jul 11 15:38:01 2019 -0700
+
+    update crc cards
+
+commit b8693aeac8a11bb683d7fb51b14c8b171ed481ee
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Thu Jul 11 15:24:52 2019 -0700
+
+    update crc cards
+
+commit c85095ea67238d3661478cdf16c35caaf9f5aa54
+Merge: 70c5104 804a8ac
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Thu Jul 11 15:22:36 2019 -0700
+
+    Merge branch 'master' of https://github.com/ecs160ss12019/StackOverflow
+
+commit 70c5104de0a008ef51dc374c81d77d1e6008338f
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Thu Jul 11 15:22:26 2019 -0700
+
+    update crc cards
+
+commit b5eb7bd36e6fedd16239efd23a01114de4c96b96
+Merge: 6f8328c c2f519a
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Thu Jul 11 15:04:18 2019 -0700
+
+    update crc cards
+
+commit 6f8328c0572e10c6a452e587a1536b4d1b23b243
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Thu Jul 11 15:01:58 2019 -0700
+
+    update crc card
+
+commit 2ece26cba689e2731c6ef732afdea91b6221183a
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Thu Jul 11 14:51:43 2019 -0700
+
+    update CRC cards
+
+commit 4f8debd0c3c09ef70dc8bc3bbf8b45bce85c9a2b
+Merge: 612f56f bbcda4d
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Thu Jul 11 14:45:42 2019 -0700
+
+    Merge branch 'master' of https://github.com/ecs160ss12019/StackOverflow
+
+commit 612f56fd6e9d02ceba27fed23294b71e8f62a7f7
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Thu Jul 11 14:45:39 2019 -0700
+
+    update Phoneix class
+
+commit c0348bf675f00ac326dcc72861d2def521ac6ad6
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Thu Jul 11 14:24:18 2019 -0700
+
+    update CRC
+
+commit e17be0bdbe451263a12c6f4851a9f9613a01d58c
+Merge: aa65f9b d567b07
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Thu Jul 11 14:23:00 2019 -0700
+
+    Merge branch 'master' of https://github.com/ecs160ss12019/StackOverflow
+
+commit aa65f9bc77848490840071b5693bed3b7787652b
+Merge: edc07ae 2215baa
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Thu Jul 11 14:22:45 2019 -0700
+
+    update CRC
+
+commit edc07aef012bb9980cf48c928748012ba6e5f0a0
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Thu Jul 11 14:20:23 2019 -0700
+
+    update CRC cards
+
+commit 2910a53b012263c72266a3cbe795bd3a30c18aed
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Thu Jul 11 14:16:28 2019 -0700
+
+    update CRC cards
+
+commit 8081b54c90c3d0ecfb20f7a4a07d378bc39be3f7
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Thu Jul 11 14:15:13 2019 -0700
+
+    update CRC cards
+
+commit 9a2408d89a0ed693141af1590dfb0220c3b45453
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Thu Jul 11 14:04:48 2019 -0700
+
+    update CRC cards
+
+commit d9b5f647502a44acbe6d267335a777e78dd69b9a
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Thu Jul 11 13:59:53 2019 -0700
+
+    update CRC cards
+
+commit 9f0071c9933e737320216e30f99238aaea51645e
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Thu Jul 11 13:58:03 2019 -0700
+
+    update CRC cards
+
+commit 559fe134e0ba151e20c327246d9dc75bff437146
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Thu Jul 11 13:57:02 2019 -0700
+
+    update CRC cards
+
+commit 5f3737797e8e1dd2e3a3a09cd674635ced32aaff
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Thu Jul 11 13:55:02 2019 -0700
+
+    update CRC cards
+
+commit 22ed1ce4d3d0af23af0c20ffc94badc1d2cc464e
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Thu Jul 11 13:53:40 2019 -0700
+
+    update CRC cards
+
+commit 1862d49f8c242a213d80e09dffe07529392905e0
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Thu Jul 11 12:53:57 2019 -0700
+
+    upload the tutorial of how to design CRC card
+
+commit bee686f47bc30ab31989186cac783e7a48e2e847
+Author: waiyu <waiyu0616@outlook.com>
+Date:   Tue Jul 9 19:14:41 2019 -0700
+
+    update README.md
