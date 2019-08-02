@@ -1,3 +1,7 @@
 <resources>
+<<<<<<< HEAD
     <string name="app_name">Malware Invader</string>
+=======
+    <string name="app_name">MalwareInvaders</string>
+>>>>>>> 254676bd73ee58bc6b9230e59050c8ab273771d5
 </resources>
