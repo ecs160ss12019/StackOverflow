@@ -16,7 +16,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginBottom="50dp"
-        scrolling_image_view:speed="10dp"
+        scrolling_image_view:speed="2dp"
         scrolling_image_view:src="@drawable/mybackground" />
 
     <ImageView
