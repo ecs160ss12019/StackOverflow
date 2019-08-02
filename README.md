@@ -13,17 +13,21 @@ You are the antivirus program and you've been asked to protect the system from m
 ## Link to Project Repository
 https://github.com/ecs160ss12019/StackOverflow
 
+## Link to storing mapping 
+https://github.com/ecs160ss12019/StackOverflow/blob/master/StoryMapping.md
+
 ## Link to CRC for week1
 https://github.com/ecs160ss12019/StackOverflow/blob/master/CRC_sprint1.md
+
 ## Link to CRC for week2
 https://github.com/ecs160ss12019/StackOverflow/blob/master/CRC_sprint2.md
+
 ## Link to CRC for week3
 https://github.com/ecs160ss12019/StackOverflow/blob/master/CRC_sprint3.md
 
 ## Link to Acceptance Criteria
 https://github.com/ecs160ss12019/StackOverflow/blob/master/AcceptanceCriteria.md
 
-![PicturesMI_S1](PicturesMI_S2(2).png)
-![PicturesMI_S1](PicturesMI_S1.png)
-![PicturesMI_S1](PicturesMI_S2.png)
+## Current States and Screenshot of game 
+https://github.com/ecs160ss12019/StackOverflow/blob/master/screenshot.pdf
 
