@@ -39,7 +39,10 @@
         <activity android:name=".GameoverPop"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"></activity>
-        <service android:name=".MyService" />
+
+        <service
+            android:name=".MyService"
+            android:enabled="true" />
 
     </application>
 
